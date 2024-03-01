@@ -1,0 +1,8 @@
+<svg width="46" height="70" viewBox="0 0 46 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1_2013_12" fill="white">
+<rect y="1" width="46" height="69" rx="2"/>
+</mask>
+<rect y="1" width="46" height="69" rx="2" stroke="#BABABA" stroke-width="6" mask="url(#path-1-inside-1_2013_12)"/>
+<path d="M2 4.5L42.5 34.5L2 65.5" stroke="#BABABA" stroke-width="2"/>
+<path d="M1.5 67L22.5 3.5L43 67" stroke="#BABABA" stroke-width="2"/>
+</svg>

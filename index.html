@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Новый Горизонт</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240301202135">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="video-bg">
+			<video src="img/video-bg.mp4" type="video/mp4" autoplay muted loop></video>
+			<div class="effects"></div>
+			<div class="video-bg__content">
+				<header class="header">
+					<div class="header__container">
+						<nav class="navbar animate__fadeInDown wow animate__animated">
+							<a href="#" class="navbar__logo">
+								<img src="img/logo.svg" alt="logo">
+							</a>
+							<div class="header__menu menu">
+								<button type="button" class="menu__icon icon-menu"><span></span></button>
+								<div class="menu__body">
+									<ul class="menu__list">
+										<li class="menu__item"><a href="" class="menu__link">Главная</a></li>
+										<li class="menu__item"><a href="#serv" class="menu__link">Услуги</a></li>
+										<li class="menu__item"><a href="#adv" class="menu__link">Преимущество</a></li>
+										<li class="menu__item"><a href="#workings" class="menu__link">Каталог</a></li>
+										<li class="menu__item"><a href="#foot" class="menu__link">Контакты</a></li>
+									</ul>
+								</div>
+							</div>
+							<a href="tel:89990009999" class="navbar__phone"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M6.62 10.79C8.06 13.62 10.38 15.93 13.21 17.38L15.41 15.18C15.68 14.91 16.08 14.82 16.43 14.94C17.55 15.31 18.76 15.51 20 15.51C20.55 15.51 21 15.96 21 16.51V20C21 20.55 20.55 21 20 21C10.61 21 3 13.39 3 4C3 3.45 3.45 3 4 3H7.5C8.05 3 8.5 3.45 8.5 4C8.5 5.25 8.7 6.45 9.07 7.57C9.18 7.92 9.1 8.31 8.82 8.59L6.62 10.79Z" fill="white" />
+								</svg><span>+ 7 999 000 99 99</span></a>
+						</nav>
+						<div class="header__flex flex-header">
+							<div class="flex-header__left">
+								<h1 class="flex-header__title animate__animated wow animate__backInLeft">Купить пластиковые окна от производителя по лучшей цене <div class="flex-header__title-icon"><svg width="405" height="265" viewBox="0 0 405 265" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M403.5 47V2H2V263.5H403.5V224" stroke="white" stroke-width="3" />
+										</svg></div>
+								</h1>
+								<div class="flex-header__subtitle subtitle-flex-header animate__animated wow animate__backInLeft">
+									<div class="subtitle-flex-header__icon"><svg width="52" height="18" viewBox="0 0 52 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<circle cx="22" cy="9" r="7" fill="#81B44B" fill-opacity="0.71" />
+											<circle cx="5" cy="9" r="5" fill="#81B44B" fill-opacity="0.5" />
+											<circle cx="43" cy="9" r="9" fill="#81B44B" />
+										</svg></div>
+									<div class="subtitle-flex-header__text">Закажи бесплатный замер и мы перезвоним в течение 5 минут</div>
+								</div>
+								<form class="flex-header__form animate__animated wow animate__backInLeft" action="files/sendmail/sendmail.php" method="POST">
+									<input required id="phone1" class="flex-header__input" type="tel" name="form[tel]" placeholder="Ваш телефон" class="input">
+									<button type="submit" class="flex-header__button button">Записаться на замер</button>
+								</form>
+								<div id="phone" class="flex-header__right right-flex-header">
+									<div class="right-flex-header__item">
+										<div class="right-flex-header__icon">
+											<img src="img/headerIcon1.svg" alt="icon">
+										</div>
+										<div class="right-flex-header__text">
+											<div class="right-flex-header__title">97.4%</div>
+											<div class="right-flex-header__subtitle">Довольных клиентов</div>
+										</div>
+										<div class="right-flex-header__left-corner">
+											<img src="img/leftCorner.svg" alt="icon">
+										</div>
+										<div class="right-flex-header__right-corner">
+											<img src="img/rightCorner.svg" alt="icon">
+										</div>
+									</div>
+									<div class="right-flex-header__item">
+										<div class="right-flex-header__icon">
+											<img src="img/headerIcon2.svg" alt="icon">
+										</div>
+										<div class="right-flex-header__text">
+											<div class="right-flex-header__title">10 лет</div>
+											<div class="right-flex-header__subtitle">Гарантии на окна</div>
+										</div>
+										<div class="right-flex-header__left-corner">
+											<img src="img/leftCorner.svg" alt="icon">
+										</div>
+										<div class="right-flex-header__right-corner">
+											<img src="img/rightCorner.svg" alt="icon">
+										</div>
+									</div>
+									<div class="right-flex-header__item">
+										<div class="right-flex-header__icon">
+											<img src="img/headerIcon3.svg" alt="icon">
+										</div>
+										<div class="right-flex-header__text">
+											<div class="right-flex-header__title">0р</div>
+											<div class="right-flex-header__subtitle">Доставка и монтаж</div>
+										</div>
+										<div class="right-flex-header__left-corner">
+											<img src="img/leftCorner.svg" alt="icon">
+										</div>
+										<div class="right-flex-header__right-corner">
+											<img src="img/rightCorner.svg" alt="icon">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="pc" class="flex-header__right right-flex-header animate__fadeInUp animate__animated wow">
+								<div class="right-flex-header__item">
+									<div class="right-flex-header__icon">
+										<img src="img/headerIcon1.svg" alt="icon">
+									</div>
+									<div class="right-flex-header__text">
+										<div class="right-flex-header__title">97.4%</div>
+										<div class="right-flex-header__subtitle">Довольных клиентов</div>
+									</div>
+									<div class="right-flex-header__left-corner">
+										<img src="img/leftCorner.svg" alt="icon">
+									</div>
+									<div class="right-flex-header__right-corner">
+										<img src="img/rightCorner.svg" alt="icon">
+									</div>
+								</div>
+								<div class="right-flex-header__item">
+									<div class="right-flex-header__icon">
+										<img src="img/headerIcon2.svg" alt="icon">
+									</div>
+									<div class="right-flex-header__text">
+										<div class="right-flex-header__title">10 лет</div>
+										<div class="right-flex-header__subtitle">Гарантии на окна</div>
+									</div>
+									<div class="right-flex-header__left-corner">
+										<img src="img/leftCorner.svg" alt="icon">
+									</div>
+									<div class="right-flex-header__right-corner">
+										<img src="img/rightCorner.svg" alt="icon">
+									</div>
+								</div>
+								<div class="right-flex-header__item">
+									<div class="right-flex-header__icon">
+										<img src="img/headerIcon3.svg" alt="icon">
+									</div>
+									<div class="right-flex-header__text">
+										<div class="right-flex-header__title">0р</div>
+										<div class="right-flex-header__subtitle">Доставка и монтаж</div>
+									</div>
+									<div class="right-flex-header__left-corner">
+										<img src="img/leftCorner.svg" alt="icon">
+									</div>
+									<div class="right-flex-header__right-corner">
+										<img src="img/rightCorner.svg" alt="icon">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+			</div>
+		</div>
+		<main class="page">
+			<div class="configurator">
+				<div class="configurator__container">
+					<h2 class="configurator__title animate__fadeInUp animate__animated wow">Быстрый предварительный расчёт стоимости окон онлайн</h2>
+					<div class="configurator__subtitle animate__fadeInUp animate__animated wow">Наш калькулятор примерно подсчитает стоимость ваших окон, однако менеджер в случае обращения, проконсультирует по всем вопросам детальнее и предоставит персональную скидку</div>
+					<div class="configurator__flex flex-configurator">
+						<div class="flex-configurator__window animate__bounceInLeft animate__animated wow">
+							<div id="range1" class="slider">
+								<label for="height-slider">Высота, см. <span class="slider-range-value" id="height-value">150</span></label>
+								<div id="slider-range"></div>
+							</div>
+							<div id="range2" class="slider">
+								<label for="width-slider">Ширина, см. <span id="width-value">150</span></label>
+								<input type="range" id="width-slider" min="50" max="300" value="150">
+							</div>
+							<div class="flex-configurator__img imgToChange">
+								<picture><source srcset="img/windowOnePlus.webp" type="image/webp"><img src="img/windowOnePlus.png" alt="img"></picture>
+							</div>
+						</div>
+						<div class="flex-configurator__right animate__bounceInRight animate__animated wow">
+							<div class="window-type">
+								<div class="window-type__select-title">Выберите тип окна</div>
+								<select class="window-type__select" name="form[]" data-class-modif="form">
+									<option value="1" selected>Одностворчатые</option>
+									<option value="2">Двустворчатые</option>
+									<option value="3">Трехстворчатые</option>
+								</select>
+							</div>
+							<div class="configurator__factor factor-configurator1">
+								<div class="factor-configurator1__title">Одностворчатые</div>
+								<div class="factor-configurator1__blockOne blockOne">
+									<div class="blockOne__first block-active">
+										<svg width="46" height="69" viewBox="0 0 46 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<mask id="path-1-inside-1_2013_10" fill="white">
+												<rect width="46" height="69" rx="2" transform="matrix(-1 0 0 1 46 0)" />
+											</mask>
+											<rect width="46" height="69" rx="2" transform="matrix(-1 0 0 1 46 0)" stroke="#BABABA" stroke-width="6" mask="url(#path-1-inside-1_2013_10)" />
+											<line y1="-1" x2="14.1421" y2="-1" transform="matrix(0 -1 -1 0 22 40.1421)" stroke="#BABABA" stroke-width="2" />
+											<line y1="-1" x2="14.1421" y2="-1" transform="matrix(-1 0 0 1 30.0713 34.071)" stroke="#BABABA" stroke-width="2" />
+										</svg>
+									</div>
+									<div class="blockOne__second">
+										<svg width="46" height="69" viewBox="0 0 46 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<mask id="path-1-inside-1_2013_11" fill="white">
+												<rect width="46" height="69" rx="2" />
+											</mask>
+											<rect width="46" height="69" rx="2" stroke="#BABABA" stroke-width="6" mask="url(#path-1-inside-1_2013_11)" />
+											<path d="M2 3.5L42.5 33.5L2 64.5" stroke="#BABABA" stroke-width="2" />
+										</svg>
+									</div>
+									<div class="blockOne__third">
+										<svg width="46" height="70" viewBox="0 0 46 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<mask id="path-1-inside-1_2013_12" fill="white">
+												<rect y="1" width="46" height="69" rx="2" />
+											</mask>
+											<rect y="1" width="46" height="69" rx="2" stroke="#BABABA" stroke-width="6" mask="url(#path-1-inside-1_2013_12)" />
+											<path d="M2 4.5L42.5 34.5L2 65.5" stroke="#BABABA" stroke-width="2" />
+											<path d="M1.5 67L22.5 3.5L43 67" stroke="#BABABA" stroke-width="2" />
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div class="configurator__factor factor-configurator2">
+								<div class="factor-configurator2__title">Двустворчатые</div>
+								<div class="factor-configurator2__blockTwo blockTwo">
+									<div class="blockTwo__first block-active">
+										<svg width="92" height="69" viewBox="0 0 92 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<mask id="path-1-inside-1_2020_46" fill="white">
+												<rect width="46" height="69" rx="2" transform="matrix(-1 0 0 1 46 0)" />
+											</mask>
+											<rect width="46" height="69" rx="2" transform="matrix(-1 0 0 1 46 0)" stroke="#BABABA" stroke-width="6" mask="url(#path-1-inside-1_2020_46)" />
+											<path d="M3.5 3.5L44 33.5L3.5 64.5" stroke="#BABABA" stroke-width="2" />
+											<line y1="-1" x2="14.1421" y2="-1" transform="matrix(0 -1 -1 0 68.0713 40.1421)" stroke="#BABABA" stroke-width="2" />
+											<line y1="-1" x2="14.1421" y2="-1" transform="matrix(-1 0 0 1 76.1426 34.0713)" stroke="#BABABA" stroke-width="2" />
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M48 0C46.8955 0 46 0.895508 46 2V67C46 68.1045 46.8955 69 48 69H90C91.1045 69 92 68.1045 92 67V2C92 0.895508 91.1045 0 90 0H48ZM89 3H49V66H89V3Z" fill="#BABABA" />
+										</svg>
+									</div>
+									<div class="blockTwo__second">
+										<svg width="92" height="69" viewBox="0 0 92 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<mask id="path-1-inside-1_33_264" fill="white">
+												<rect width="46" height="69" rx="2" transform="matrix(-1 0 0 1 46 0)" />
+											</mask>
+											<rect width="46" height="69" rx="2" transform="matrix(-1 0 0 1 46 0)" stroke="#BABABA" stroke-width="6" mask="url(#path-1-inside-1_33_264)" />
+											<path d="M3.5 3.5L44 33.5L3.5 64.5" stroke="#BABABA" stroke-width="2" />
+											<mask id="path-3-inside-2_33_264" fill="white">
+												<rect x="46" width="46" height="69" rx="2" />
+											</mask>
+											<rect x="46" width="46" height="69" rx="2" stroke="#BABABA" stroke-width="6" mask="url(#path-3-inside-2_33_264)" />
+											<path d="M88.5 3.5L48 33.5L88.5 64.5" stroke="#BABABA" stroke-width="2" />
+										</svg>
+									</div>
+									<div class="blockTwo__third">
+										<svg width="92" height="70" viewBox="0 0 92 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<mask id="path-1-inside-1_33_273" fill="white">
+												<rect x="46" y="1" width="46" height="69" rx="2" />
+											</mask>
+											<rect x="46" y="1" width="46" height="69" rx="2" stroke="#BABABA" stroke-width="6" mask="url(#path-1-inside-1_33_273)" />
+											<path d="M88.5 4.5L48 34.5L88.5 65.5" stroke="#BABABA" stroke-width="2" />
+											<mask id="path-3-inside-2_33_273" fill="white">
+												<rect y="1" width="46" height="69" rx="2" />
+											</mask>
+											<rect y="1" width="46" height="69" rx="2" stroke="#BABABA" stroke-width="6" mask="url(#path-3-inside-2_33_273)" />
+											<path d="M2 4.5L42.5 34.5L2 65.5" stroke="#BABABA" stroke-width="2" />
+											<path d="M1.5 67L22.5 3.5L43 67" stroke="#BABABA" stroke-width="2" />
+										</svg>
+									</div>
+									<div class="blockTwo__forth">
+										<svg width="92" height="70" viewBox="0 0 92 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<mask id="path-1-inside-1_2020_55" fill="white">
+												<rect y="1" width="46" height="69" rx="2" />
+											</mask>
+											<rect y="1" width="46" height="69" rx="2" stroke="#BABABA" stroke-width="6" mask="url(#path-1-inside-1_2020_55)" />
+											<path d="M2 4.5L42.5 34.5L2 65.5" stroke="#BABABA" stroke-width="2" />
+											<path d="M1.5 67L22.5 3.5L43 67" stroke="#BABABA" stroke-width="2" />
+											<line y1="-1" x2="14.1421" y2="-1" transform="matrix(0 -1 -1 0 68.0713 41.1421)" stroke="#BABABA" stroke-width="2" />
+											<line y1="-1" x2="14.1421" y2="-1" transform="matrix(-1 0 0 1 76.1426 35.0713)" stroke="#BABABA" stroke-width="2" />
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M48 1C46.8955 1 46 1.89551 46 3V68C46 69.1045 46.8955 70 48 70H90C91.1045 70 92 69.1045 92 68V3C92 1.89551 91.1045 1 90 1H48ZM89 4H49V67H89V4Z" fill="#BABABA" />
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div class="configurator__factor factor-configurator3">
+								<div class="factor-configurator3__title">Трехстворчатые</div>
+								<div class="factor-configurator3__blockThree blockThree">
+									<div class="blockThree__first block-active">
+										<svg width="138" height="69" viewBox="0 0 138 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<line y1="-1" x2="14.1421" y2="-1" transform="matrix(0 -1 -1 0 114.071 40.1421)" stroke="#BABABA" stroke-width="2" />
+											<line y1="-1" x2="14.1421" y2="-1" transform="matrix(-1 0 0 1 122.143 34.0713)" stroke="#BABABA" stroke-width="2" />
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M94 0C92.8955 0 92 0.895508 92 2V67C92 68.1045 92.8955 69 94 69H136C137.104 69 138 68.1045 138 67V2C138 0.895508 137.104 0 136 0H94ZM135 3H95V66H135V3Z" fill="#BABABA" />
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M48 0C46.8954 0 46 0.89543 46 2V67C46 68.1046 46.8954 69 48 69H90C91.1046 69 92 68.1046 92 67V2C92 0.895431 91.1046 0 90 0H48ZM89 3H49V66H89V3Z" fill="#BABABA" />
+											<line y1="-1" x2="14.1421" y2="-1" transform="matrix(0 -1 -1 0 22.0713 40.1421)" stroke="#BABABA" stroke-width="2" />
+											<line y1="-1" x2="14.1421" y2="-1" transform="matrix(-1 0 0 1 30.1426 34.0713)" stroke="#BABABA" stroke-width="2" />
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M2 0C0.895431 0 0 0.89543 0 2V67C0 68.1046 0.89543 69 2 69H44C45.1046 69 46 68.1046 46 67V2C46 0.895431 45.1046 0 44 0H2ZM43 3H3V66H43V3Z" fill="#BABABA" />
+											<path d="M48 4L88.5 34L48 65" stroke="#BABABA" stroke-width="2" />
+										</svg>
+									</div>
+									<div class="blockThree__second">
+										<svg width="138" height="69" viewBox="0 0 138 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<mask id="path-1-inside-1_2025_114" fill="white">
+												<rect width="46" height="69" rx="2" transform="matrix(-1 0 0 1 46 0)" />
+											</mask>
+											<rect width="46" height="69" rx="2" transform="matrix(-1 0 0 1 46 0)" stroke="#BABABA" stroke-width="6" mask="url(#path-1-inside-1_2025_114)" />
+											<path d="M3.5 3.5L44 33.5L3.5 64.5" stroke="#BABABA" stroke-width="2" />
+											<mask id="path-3-inside-2_2025_114" fill="white">
+												<rect x="92" width="46" height="69" rx="2" />
+											</mask>
+											<rect x="92" width="46" height="69" rx="2" stroke="#BABABA" stroke-width="6" mask="url(#path-3-inside-2_2025_114)" />
+											<path d="M134.5 3.5L94 33.5L134.5 64.5" stroke="#BABABA" stroke-width="2" />
+											<line y1="-1" x2="14.1421" y2="-1" transform="matrix(0 -1 -1 0 68.0713 40.1421)" stroke="#BABABA" stroke-width="2" />
+											<line y1="-1" x2="14.1421" y2="-1" transform="matrix(-1 0 0 1 76.1426 34.0713)" stroke="#BABABA" stroke-width="2" />
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M48 0C46.8954 0 46 0.89543 46 2V67C46 68.1046 46.8954 69 48 69H90C91.1046 69 92 68.1046 92 67V2C92 0.895431 91.1046 0 90 0H48ZM89 3H49V66H89V3Z" fill="#BABABA" />
+										</svg>
+									</div>
+									<div class="blockThree__third">
+										<svg width="138" height="70" viewBox="0 0 138 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M1.5 67L22.5 3.5L43 67" stroke="#BABABA" stroke-width="2" />
+											<mask id="path-2-inside-1_2025_124" fill="white">
+												<rect y="1" width="46" height="69" rx="2" />
+											</mask>
+											<rect y="1" width="46" height="69" rx="2" stroke="#BABABA" stroke-width="6" mask="url(#path-2-inside-1_2025_124)" />
+											<path d="M2 4.5L42.5 34.5L2 65.5" stroke="#BABABA" stroke-width="2" />
+											<mask id="path-4-inside-2_2025_124" fill="white">
+												<rect x="92" y="1" width="46" height="69" rx="2" />
+											</mask>
+											<rect x="92" y="1" width="46" height="69" rx="2" stroke="#BABABA" stroke-width="6" mask="url(#path-4-inside-2_2025_124)" />
+											<path d="M134.5 4.5L94 34.5L134.5 65.5" stroke="#BABABA" stroke-width="2" />
+											<line y1="-1" x2="14.1421" y2="-1" transform="matrix(0 -1 -1 0 68.0713 41.1421)" stroke="#BABABA" stroke-width="2" />
+											<line y1="-1" x2="14.1421" y2="-1" transform="matrix(-1 0 0 1 76.1426 35.0713)" stroke="#BABABA" stroke-width="2" />
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M48 1C46.8954 1 46 1.89543 46 3V68C46 69.1046 46.8954 70 48 70H90C91.1046 70 92 69.1046 92 68V3C92 1.89543 91.1046 1 90 1H48ZM89 4H49V67H89V4Z" fill="#BABABA" />
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div class="extras">
+								<div class="checkbox">
+									<input id="c_1" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="c_1" class="checkbox__label"><span class="checkbox__text">Нужен подоконник, отлив?</span></label>
+								</div>
+								<div class="checkbox">
+									<input id="c_2" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="c_2" class="checkbox__label"><span class="checkbox__text">Нужны монтажные работы?</span></label>
+								</div>
+							</div>
+							<div class="window-credit">
+								<div class="window-credit__left">
+									В рассрочку:
+									<span class="window-credit__span window-credit__span1">502р</span>
+								</div>
+								<div class="window-credit__right">
+									Средняя цена:
+									<span class="window-credit__span window-credit__span2">8135р</span>
+								</div>
+							</div>
+							<div class="price">
+								<p>Стоимость по акции <span id="price-value">6062</span> <span>р</span></p>
+							</div>
+							<button data-popup="#popup" id="order-button">Заказать со скидкой</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="imgPreLoad">
+				<picture><source srcset="img/windowOnePlus.webp" type="image/webp"><img src="img/windowOnePlus.png" alt="" style="display:none;"></picture>
+				<picture><source srcset="img/windowOneArrow.webp" type="image/webp"><img src="img/windowOneArrow.png" alt="" style="display:none;"></picture>
+				<picture><source srcset="img/windowOneStar.webp" type="image/webp"><img src="img/windowOneStar.png" alt="" style="display:none;"></picture>
+				<picture><source srcset="img/plusArrow.webp" type="image/webp"><img src="img/plusArrow.png" alt="" style="display:none;"></picture>
+				<picture><source srcset="img/twoArrows.webp" type="image/webp"><img src="img/twoArrows.png" alt="" style="display:none;"></picture>
+				<picture><source srcset="img/arrowStar.webp" type="image/webp"><img src="img/arrowStar.png" alt="" style="display:none;"></picture>
+				<picture><source srcset="img/plusStar.webp" type="image/webp"><img src="img/plusStar.png" alt="" style="display:none;"></picture>
+				<picture><source srcset="img/threeFirst.webp" type="image/webp"><img src="img/threeFirst.png" alt="" style="display:none;"></picture>
+				<picture><source srcset="img/threeSecond.webp" type="image/webp"><img src="img/threeSecond.png" alt="" style="display:none;"></picture>
+				<picture><source srcset="img/threeThird.webp" type="image/webp"><img src="img/threeThird.png" alt="" style="display:none;"></picture>
+			</div>
+			<section id="serv" class="service">
+				<h2 class="service__title animate__fadeInUp wow animate__animated">Услуги</h2>
+				<div class="service__container">
+					<div class="service__item item-service animate__fadeInBottomLeft wow animate__animated" data-popup="#popup">
+						<div class="item-service__img">
+							<picture><source srcset="img/service1.webp" type="image/webp"><img src="img/service1.png" alt="img"></picture>
+						</div>
+						<div class="item-service__title">Бесплатный замер</div>
+					</div>
+					<div class="service__item item-service animate__fadeInUp wow animate__animated" data-popup="#popup">
+						<div class="item-service__img">
+							<picture><source srcset="img/service2.webp" type="image/webp"><img src="img/service2.png" alt="img"></picture>
+						</div>
+						<div class="item-service__title">Монтаж/демонтаж</div>
+					</div>
+					<div class="service__item item-service animate__fadeInBottomRight wow animate__animated" data-popup="#popup">
+						<div class="item-service__img">
+							<picture><source srcset="img/service3.webp" type="image/webp"><img src="img/service3.png" alt="img"></picture>
+						</div>
+						<div class="item-service__title">Внутренняя отделка балконов и лоджий</div>
+					</div>
+					<div class="service__item item-service animate__fadeInBottomLeft wow animate__animated" data-popup="#popup">
+						<div class="item-service__img">
+							<picture><source srcset="img/service4.webp" type="image/webp"><img src="img/service4.png" alt="img"></picture>
+						</div>
+						<div class="item-service__title">Отделка сайдингом</div>
+					</div>
+					<div class="service__item item-service animate__fadeInUp wow animate__animated" data-popup="#popup">
+						<div class="item-service__img">
+							<picture><source srcset="img/service5.webp" type="image/webp"><img src="img/service5.png" alt="img"></picture>
+						</div>
+						<div class="item-service__title">Остекление беседок</div>
+					</div>
+					<div class="service__item item-service animate__fadeInBottomRight wow animate__animated" data-popup="#popup">
+						<div class="item-service__img">
+							<picture><source srcset="img/service6.webp" type="image/webp"><img src="img/service6.png" alt="img"></picture>
+						</div>
+						<div class="item-service__title">Остекления витрин</div>
+					</div>
+				</div>
+			</section>
+			<section class="how">
+				<h2 class="how__title animate__fadeInUp wow animate__animated">Как мы работаем</h2>
+				<div class="how__container">
+					<div class="how__item animate__fadeInLeft wow animate__animated">
+						<div class="how__num">01</div>
+						<div class="how__icon">
+							<img src="img/how1.svg" alt="icon">
+						</div>
+						<div class="how__text">Вызов замерщика</div>
+					</div>
+					<div class="how__item animate__fadeInLeft wow animate__animated">
+						<div id="borderNone2" class="how__num">02</div>
+						<div class="how__icon">
+							<img src="img/how2.svg" alt="icon">
+						</div>
+						<div class="how__text">Заключение договора на адресе/или в офисе компании</div>
+					</div>
+					<div class="how__item animate__fadeInRight wow animate__animated">
+						<div id="borderNone3" class="how__num">03</div>
+						<div class="how__icon">
+							<img src="img/how3.svg" alt="icon">
+						</div>
+						<div class="how__text">Изготовление - доставка и монтаж окон</div>
+					</div>
+					<div class="how__item animate__fadeInRight wow animate__animated">
+						<div id="borderNone4" class="how__num">04</div>
+						<div class="how__icon">
+							<img src="img/how4.svg" alt="icon">
+						</div>
+						<div class="how__text">Оплата по договору картой или наличными</div>
+					</div>
+				</div>
+				<div class="how__subtitle animate__fadeInUp wow animate__animated">10 лет успешной работы</div>
+			</section>
+			<section id="adv" class="advantages">
+				<h2 class="advantages__title animate__fadeInUp wow animate__animated">Наши преимущества</h2>
+				<div class="advantages__container">
+					<div class="advantages__item item-advantages animate__bounceInLeft wow animate__animated">
+						<div class="item-advantages__top">
+							<div class="item-advantages__left-corner">
+								<img src="img/leftCorner.svg" alt="icon">
+							</div>
+							<div class="item-advantages__icon">
+								<img src="img/adv1.svg" alt="icon">
+							</div>
+							<div class="item-advantages__title">Собственное производство</div>
+							<div class="item-advantages__right-corner">
+								<img src="img/rightCorner.svg" alt="icon">
+							</div>
+						</div>
+						<div class="item-advantages__bottom">Собственный завод площадью более 2000 м2/ Оснащён современным автоматизированным оборудованием.</div>
+					</div>
+					<div class="advantages__item item-advantages animate__bounceInLeft wow animate__animated">
+						<div class="item-advantages__top">
+							<div class="item-advantages__left-corner">
+								<img src="img/leftCorner.svg" alt="icon">
+							</div>
+							<div class="item-advantages__icon">
+								<img src="img/adv2.svg" alt="icon">
+							</div>
+							<div class="item-advantages__title">10 лет гарантии</div>
+							<div class="item-advantages__right-corner">
+								<img src="img/rightCorner.svg" alt="icon">
+							</div>
+						</div>
+						<div class="item-advantages__bottom">Наши специалисты будут осуществлять сезонное обслуживание, регулировку фурнитуры и уход за уплотнителями.</div>
+					</div>
+					<div class="advantages__item item-advantages animate__bounceInRight wow animate__animated">
+						<div class="item-advantages__top">
+							<div class="item-advantages__left-corner">
+								<img src="img/leftCorner.svg" alt="icon">
+							</div>
+							<div class="item-advantages__icon">
+								<img src="img/adv3.svg" alt="icon">
+							</div>
+							<div class="item-advantages__title">Бесплатный замер</div>
+							<div class="item-advantages__right-corner">
+								<img src="img/rightCorner.svg" alt="icon">
+							</div>
+						</div>
+						<div class="item-advantages__bottom">Мы предлагаем выезд замерщика в удобное для вас время. Специалист выполнит необходимые замеры и проконсультирует по ассортименту продукции.</div>
+					</div>
+					<div class="advantages__item item-advantages animate__bounceInRight wow animate__animated">
+						<div class="item-advantages__top">
+							<div class="item-advantages__left-corner">
+								<img src="img/leftCorner.svg" alt="icon">
+							</div>
+							<div class="item-advantages__icon">
+								<img src="img/adv4.svg" alt="icon">
+							</div>
+							<div class="item-advantages__title">Доступные цены</div>
+							<div class="item-advantages__right-corner">
+								<img src="img/rightCorner.svg" alt="icon">
+							</div>
+						</div>
+						<div class="item-advantages__bottom">Собственное производство позволяет нашей компании реализовывать продукцию по доступной цене без накруток и переплат.</div>
+					</div>
+					<div class="advantages__item item-advantages animate__bounceInLeft wow animate__animated">
+						<div class="item-advantages__top">
+							<div class="item-advantages__left-corner">
+								<img src="img/leftCorner.svg" alt="icon">
+							</div>
+							<div class="item-advantages__icon">
+								<img src="img/adv5.svg" alt="icon">
+							</div>
+							<div class="item-advantages__title">Лет на оконном рынке</div>
+							<div class="item-advantages__right-corner">
+								<img src="img/rightCorner.svg" alt="icon">
+							</div>
+						</div>
+						<div class="item-advantages__bottom">Наша компания занимается производством и установкой ПВХ окон с 2013 года.</div>
+					</div>
+					<div class="advantages__item item-advantages animate__bounceInLeft wow animate__animated">
+						<div class="item-advantages__top">
+							<div class="item-advantages__left-corner">
+								<img src="img/leftCorner.svg" alt="icon">
+							</div>
+							<div class="item-advantages__icon">
+								<img src="img/adv6.svg" alt="icon">
+							</div>
+							<div class="item-advantages__title">Обширная сеть офисов</div>
+							<div class="item-advantages__right-corner">
+								<img src="img/rightCorner.svg" alt="icon">
+							</div>
+						</div>
+						<div class="item-advantages__bottom">Для удобства клиентов работает 9 точек продаж, во многих городах открыты филиалы нашей компании.</div>
+					</div>
+					<div class="advantages__item item-advantages animate__bounceInRight wow animate__animated">
+						<div class="item-advantages__top">
+							<div class="item-advantages__left-corner">
+								<img src="img/leftCorner.svg" alt="icon">
+							</div>
+							<div class="item-advantages__icon">
+								<img src="img/adv7.svg" alt="icon">
+							</div>
+							<div class="item-advantages__title">Монтаж по ГОСТу</div>
+							<div class="item-advantages__right-corner">
+								<img src="img/rightCorner.svg" alt="icon">
+							</div>
+						</div>
+						<div class="item-advantages__bottom">Все монтажные работы проводятся в соответствии с действующими требованиями ГОСТов.</div>
+					</div>
+					<div class="advantages__item item-advantages animate__bounceInRight wow animate__animated">
+						<div class="item-advantages__top">
+							<div class="item-advantages__left-corner">
+								<img src="img/leftCorner.svg" alt="icon">
+							</div>
+							<div class="item-advantages__icon">
+								<img src="img/adv8.svg" alt="icon">
+							</div>
+							<div class="item-advantages__title">Беспроцентная расcрочка</div>
+							<div class="item-advantages__right-corner">
+								<img src="img/rightCorner.svg" alt="icon">
+							</div>
+						</div>
+						<div class="item-advantages__bottom">Вы можете установить окна в рассрочку без процентов и переплат.</div>
+					</div>
+				</div>
+			</section>
+			<section class="catalog">
+				<h2 id="workings" class="catalog__title animate__fadeInUp wow animate__animated">Каталог продукции</h2>
+				<div class="catalog__container">
+					<div class="catalog__select select-catalog">
+						<div class="select-catalog__left catalog-active animate__bounceInLeft wow animate__animated">Алюминиевые и ПВХ окна</div>
+						<div class="select-catalog__right animate__bounceInRight wow animate__animated">Алюминиевые и ПВХ двери</div>
+					</div>
+					<div class="catalog__flex catalog__flex1">
+						<div class="catalog__item item-catalog animate__fadeIn wow animate__animated">
+							<div class="item-catalog__title">2-Х СТВОРЧАТОЕ ОКНО</div>
+							<div class="item-catalog__img">
+								<picture><source srcset="img/catalog1.webp" type="image/webp"><img src="img/catalog1.png" alt="img"></picture>
+							</div>
+							<div class="item-catalog__new-price">
+								<div class="item-catalog__our">Наша цена</div>
+								<div class="item-catalog__our-num">5 200р</div>
+							</div>
+							<div class="item-catalog__old-price">
+								<div class="item-catalog__other">Цена других</div>
+								<div class="item-catalog__other-num">7 550р</div>
+							</div>
+							<div class="item-catalog__btn button" data-popup="#popup">Заказать по акции</div>
+						</div>
+						<div class="catalog__item item-catalog animate__fadeIn wow animate__animated">
+							<div class="item-catalog__title">3-Х СТВОРЧАТОЕ ОКНО</div>
+							<div class="item-catalog__img">
+								<picture><source srcset="img/catalog2.webp" type="image/webp"><img src="img/catalog2.png" alt="img"></picture>
+							</div>
+							<div class="item-catalog__new-price">
+								<div class="item-catalog__our">Наша цена</div>
+								<div class="item-catalog__our-num">7250р</div>
+							</div>
+							<div class="item-catalog__old-price">
+								<div class="item-catalog__other">Цена других</div>
+								<div class="item-catalog__other-num">9 350р</div>
+							</div>
+							<div class="item-catalog__btn button" data-popup="#popup">Заказать по акции</div>
+						</div>
+						<div class="catalog__item item-catalog animate__fadeIn wow animate__animated">
+							<div class="item-catalog__title">БАЛКОННАЯ ДВЕРЬ С ОКНОМ</div>
+							<div class="item-catalog__img">
+								<picture><source srcset="img/catalog3.webp" type="image/webp"><img src="img/catalog3.png" alt="img"></picture>
+							</div>
+							<div class="item-catalog__new-price">
+								<div class="item-catalog__our">Наша цена</div>
+								<div class="item-catalog__our-num">9450р</div>
+							</div>
+							<div class="item-catalog__old-price">
+								<div class="item-catalog__other">Цена других</div>
+								<div class="item-catalog__other-num">12 700р</div>
+							</div>
+							<div class="item-catalog__btn button" data-popup="#popup">Заказать по акции</div>
+						</div>
+					</div>
+					<div class="catalog__flex catalog__flex2">
+						<div class="catalog__item item-catalog">
+							<div class="item-catalog__title">Пластиковые двери</div>
+							<div class="item-catalog__img">
+								<picture><source srcset="img/catalog4.webp" type="image/webp"><img src="img/catalog4.png" alt="img"></picture>
+							</div>
+							<div class="item-catalog__new-price">
+								<div class="item-catalog__our">Наша цена</div>
+								<div class="item-catalog__our-num">9450р</div>
+							</div>
+							<div class="item-catalog__old-price">
+								<div class="item-catalog__other">Цена других</div>
+								<div class="item-catalog__other-num">12 200р</div>
+							</div>
+							<div class="item-catalog__btn button" data-popup="#popup">Заказать по акции</div>
+						</div>
+						<div class="catalog__item item-catalog">
+							<div class="item-catalog__title">Алюминиевые двери</div>
+							<div class="item-catalog__img">
+								<picture><source srcset="img/catalog5.webp" type="image/webp"><img src="img/catalog5.png" alt="img"></picture>
+							</div>
+							<div class="item-catalog__new-price">
+								<div class="item-catalog__our">Наша цена</div>
+								<div class="item-catalog__our-num">5 200р</div>
+							</div>
+							<div class="item-catalog__old-price">
+								<div class="item-catalog__other">Цена других</div>
+								<div class="item-catalog__other-num">7 200р</div>
+							</div>
+							<div class="item-catalog__btn button" data-popup="#popup">Заказать по акции</div>
+						</div>
+						<div class="catalog__item item-catalog">
+							<div class="item-catalog__title">противопожарная дверь</div>
+							<div class="item-catalog__img">
+								<picture><source srcset="img/catalog6.webp" type="image/webp"><img src="img/catalog6.png" alt="img"></picture>
+							</div>
+							<div class="item-catalog__new-price">
+								<div class="item-catalog__our">Наша цена</div>
+								<div class="item-catalog__our-num">5 200р</div>
+							</div>
+							<div class="item-catalog__old-price">
+								<div class="item-catalog__other">Цена других</div>
+								<div class="item-catalog__other-num">7 200р</div>
+							</div>
+							<div class="item-catalog__btn button" data-popup="#popup">Заказать по акции</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="weare">
+				<div class="weare__container">
+					<h2 class="weare__title animate__fadeInUp wow animate__animated">Мы являемся производителем </h2>
+					<div class="weare__text animate__fadeInUp wow animate__animated">Наш завод работает по передовым технологиям. Производство оснащено современным и высокотехнологичным оборудованием, что позволяет устанавливать приятную стоимость пластиковых окон. Мы регулярно модернизируем станки и закупаем новинки в сфере оконного производства.</div>
+					<div class="weare__flex flex-weare">
+						<div class="flex-weare__item animate__fadeInLeft wow animate__animated">
+							<div class="flex-weare__icon">
+								<img src="img/weare1.svg" alt="icon">
+							</div>
+							<div class="flex-weare__title">СТРОГИЙ КОНТРОЛЬ КАЧЕСТВА</div>
+						</div>
+						<div class="flex-weare__item animate__fadeInUp wow animate__animated">
+							<div class="flex-weare__icon">
+								<img src="img/weare1.svg" alt="icon">
+							</div>
+							<div class="flex-weare__title">ФАБРИЧНЫЕ ЦЕНЫ</div>
+						</div>
+						<div class="flex-weare__item animate__fadeInRight wow animate__animated">
+							<div class="flex-weare__icon">
+								<img src="img/weare1.svg" alt="icon">
+							</div>
+							<div class="flex-weare__title">ГАРАНТИЙНОЕ ОБСЛУЖИВАНИЕ</div>
+						</div>
+					</div>
+					<div class="weare__text animate__fadeInUp wow animate__animated">«Новый горизонт» — завод-производитель оконных и дверных конструкций из пластика и алюминия, у которого за плечами более 20 лет успешной работы. Нам под силу любые проекты! Подберем, изготовим и установим остекление под ключ с учетом всех нюансов эксплуатации и пожеланий заказчика.</div>
+				</div>
+			</section>
+			<section class="promo">
+				<h2 class="promo__title animate__fadeInUp wow animate__animated">Пластиковые окна от производителя</h2>
+				<div class="promo__container">
+					<div class="promo__item item-promo animate__fadeInBottomLeft wow animate__animated">
+						<div class="item-promo__title">Proplex</div>
+						<div class="item-promo__img">
+							<picture><source srcset="img/promo1.webp" type="image/webp"><img src="img/promo1.png" alt="img"></picture>
+						</div>
+						<div class="item-promo__price-block">
+							<div class="item-promo__price">от 12 790 ₽/м²</div>
+							<div class="item-promo__blueprint">
+								<picture><source srcset="img/promoB1.webp" type="image/webp"><img src="img/promoB1.png" alt="img"></picture>
+							</div>
+						</div>
+						<div class="item-promo__text">Воздушные камеры — <span>3/5/7шт.</span></div>
+						<div class="item-promo__text">Ширина рама/створка — <span>70/100мм.</span></div>
+						<div class="item-promo__text">Теплозащита — <span>0.75</span></div>
+						<div class="promo-item__btn button" data-popup="#popup">Заказать расчёт</div>
+					</div>
+					<div class="promo__item item-promo animate__fadeInUp wow animate__animated">
+						<div class="item-promo__title">KBE</div>
+						<div class="item-promo__img">
+							<picture><source srcset="img/promo2.webp" type="image/webp"><img src="img/promo2.png" alt="img"></picture>
+						</div>
+						<div class="item-promo__price-block">
+							<div class="item-promo__price">от 11 290 ₽/м²</div>
+							<div class="item-promo__blueprint">
+								<picture><source srcset="img/promoB2.webp" type="image/webp"><img src="img/promoB2.png" alt="img"></picture>
+							</div>
+						</div>
+						<div class="item-promo__text">Воздушные камеры — <span>4/5/6шт.</span></div>
+						<div class="item-promo__text">Ширина рама/створка — <span>58/76/48мм.</span></div>
+						<div class="item-promo__text">Теплозащита — <span>1.0</span></div>
+						<div class="promo-item__btn button" data-popup="#popup">Заказать расчёт</div>
+					</div>
+					<div class="promo__item item-promo animate__fadeInBottomRight wow animate__animated">
+						<div class="item-promo__title">Rehau</div>
+						<div class="item-promo__img">
+							<picture><source srcset="img/promo3.webp" type="image/webp"><img src="img/promo3.png" alt="img"></picture>
+						</div>
+						<div class="item-promo__price-block">
+							<div class="item-promo__price">от 10 190 ₽/м²</div>
+							<div class="item-promo__blueprint">
+								<picture><source srcset="img/promoB3.webp" type="image/webp"><img src="img/promoB3.png" alt="img"></picture>
+							</div>
+						</div>
+						<div class="item-promo__text">Воздушные камеры — <span>3/6/4шт.</span></div>
+						<div class="item-promo__text">Ширина рама/створка — <span>60/86мм.</span></div>
+						<div class="item-promo__text">Теплозащита — <span>1.05</span></div>
+						<div class="promo-item__btn button" data-popup="#popup">Заказать расчёт</div>
+					</div>
+					<div class="promo__item item-promo animate__fadeInBottomLeft wow animate__animated">
+						<div class="item-promo__title">Veka</div>
+						<div class="item-promo__img">
+							<picture><source srcset="img/promo4.webp" type="image/webp"><img src="img/promo4.png" alt="img"></picture>
+						</div>
+						<div class="item-promo__price-block">
+							<div class="item-promo__price">от 9 090 ₽/м²</div>
+							<div class="item-promo__blueprint">
+								<picture><source srcset="img/promoB4.webp" type="image/webp"><img src="img/promoB4.png" alt="img"></picture>
+							</div>
+						</div>
+						<div class="item-promo__text">Воздушные камеры — <span>4/5/4шт.</span></div>
+						<div class="item-promo__text">Ширина рама/створка — <span>70/70мм.</span></div>
+						<div class="item-promo__text">Теплозащита — <span>0.78</span></div>
+						<div class="promo-item__btn button" data-popup="#popup">Заказать расчёт</div>
+					</div>
+					<div class="promo__item item-promo animate__fadeInUp wow animate__animated">
+						<div class="item-promo__title">Grunder</div>
+						<div class="item-promo__img">
+							<picture><source srcset="img/promo5.webp" type="image/webp"><img src="img/promo5.png" alt="img"></picture>
+						</div>
+						<div class="item-promo__price-block">
+							<div class="item-promo__price">от 5 690 ₽/м²</div>
+							<div class="item-promo__blueprint">
+								<picture><source srcset="img/promoB5.webp" type="image/webp"><img src="img/promoB5.png" alt="img"></picture>
+							</div>
+						</div>
+						<div class="item-promo__text">Воздушные камеры — <span>3шт.</span></div>
+						<div class="item-promo__text">Ширина рама/створка — <span>60мм.</span></div>
+						<div class="item-promo__text">Теплозащита — <span>0.64</span></div>
+						<div class="promo-item__btn button" data-popup="#popup">Заказать расчёт</div>
+					</div>
+					<div class="promo__item item-promo animate__fadeInBottomRight wow animate__animated">
+						<div class="item-promo__title">Kommerling 76</div>
+						<div class="item-promo__img">
+							<picture><source srcset="img/promo6.webp" type="image/webp"><img src="img/promo6.png" alt="img"></picture>
+						</div>
+						<div class="item-promo__price-block">
+							<div class="item-promo__price">от 5 390 ₽/м²</div>
+							<div class="item-promo__blueprint">
+								<picture><source srcset="img/promoB6.webp" type="image/webp"><img src="img/promoB6.png" alt="img"></picture>
+							</div>
+						</div>
+						<div class="item-promo__text">Воздушные камеры — <span>3шт.</span></div>
+						<div class="item-promo__text">Ширина рама/створка — <span>60мм.</span></div>
+						<div class="item-promo__text">Теплозащита — <span>0.7</span></div>
+						<div class="promo-item__btn button" data-popup="#popup">Заказать расчёт</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<div id="popup" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close">
+						<img src="img/close.svg" alt="icon">
+					</button>
+					<div class="popup__title">Забери свою скидку прямо сейчас</div>
+					<form id="popup-form" class="card-form__action action-card-form" action="files/sendmail/sendmail.php" method="POST">
+						<input required type="text" name="form[name]" placeholder="Ваше имя" class="action-card-form__input">
+						<input id="phone2" required type="tel" name="form[tel]" placeholder="Ваш телефон" class="action-card-form__input">
+						<button type="submit" class="button action-form__button">Получить скидку</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div id="popupPolicy" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close">
+						<img src="img/close.svg" alt="icon">
+					</button>
+					<div class="popup__title">Политика конфиденциальности</div>
+					<div class="policy__header">1. Общие положения</div>
+					<div class="policy__text">Настоящая политика обработки персональных данных составлена в соответствии с требованиями Федерального закона от 27.07.2006. № 152-ФЗ "О персональных данных" (далее — Закон о персональных данных) и определяет порядок обработки персональных данных и меры по обеспечению безопасности персональных данных. Предпринимает их Михтиев Мурад Сайидович (далее — Оператор).</div>
+					<div class="policy__text">1.1. Оператор ставит своей важнейшей целью и условием осуществления своей деятельности соблюдение прав и свобод человека и гражданина при обработке его персональных данных, в том числе защиты прав на неприкосновенность частной жизни, личную и семейную тайну.</div>
+					<div class="policy__text">1.2. Настоящая политика Оператора в отношении обработки персональных данных (далее — Политика) применяется ко всей информации, которую Оператор может получить о посетителях веб-сайта http://demontazh-rostov.ru.</div>
+					<div class="policy__header">2. Основные понятия, используемые в Политике</div>
+					<div class="policy__text">2.1. Автоматизированная обработка персональных данных — обработка персональных данных с помощью средств вычислительной техники.</div>
+					<div class="policy__text">2.2. Блокирование персональных данных — временное прекращение обработки персональных данных (за исключением случаев, если обработка необходима для уточнения персональных данных).</div>
+					<div class="policy__text">2.3. Веб-сайт — совокупность графических и информационных материалов, а также программ для ЭВМ и баз данных, обеспечивающих их доступность в сети интернет по сетевому адресу http://demontazh-rostov.ru.</div>
+					<div class="policy__text">2.4. Информационная система персональных данных — совокупность содержащихся в базах данных персональных данных и обеспечивающих их обработку информационных технологий и технических средств</div>
+					<div class="policy__text">2.5. Обезличивание персональных данных — действия, в результате которых невозможно определить без использования дополнительной информации принадлежность персональных данных конкретному Пользователю или иному субъекту персональных данных.</div>
+					<div class="policy__text">2.6. Обработка персональных данных — любое действие (операция) или совокупность действий (операций), совершаемых с использованием средств автоматизации или без использования таких средств с персональными данными, включая сбор, запись, систематизацию, накопление, хранение, уточнение (обновление, изменение), извлечение, использование, передачу (распространение, предоставление, доступ), обезличивание, блокирование, удаление, уничтожение персональных данных.</div>
+					<div class="policy__text">2.7. Оператор — государственный орган, муниципальный орган, юридическое или физическое лицо, самостоятельно или совместно с другими лицами организующие и/или осуществляющие обработку персональных данных, а также определяющие цели обработки персональных данных, состав персональных данных, подлежащих обработке, действия (операции), совершаемые с персональными данными.</div>
+					<div class="policy__text">2.8. Персональные данные — любая информация, относящаяся прямо или косвенно к определенному или определяемому Пользователю веб-сайта http://demontazh-rostov.ru.</div>
+					<div class="policy__text">2.9. Персональные данные, разрешенные субъектом персональных данных для распространения, — персональные данные, доступ неограниченного круга лиц к которым предоставлен субъектом персональных данных путем дачи согласия на обработку персональных данных, разрешенных субъектом персональных данных для распространения в порядке, предусмотренном Законом о персональных данных (далее — персональные данные, разрешенные для распространения).</div>
+					<div class="policy__text">2.10. Пользователь — любой посетитель веб-сайта http://demontazh-rostov.ru.</div>
+					<div class="policy__text">2.11. Предоставление персональных данных — действия, направленные на раскрытие персональных данных определенному лицу или определенному кругу лиц.</div>
+					<div class="policy__text">2.12. Распространение персональных данных — любые действия, направленные на раскрытие персональных данных неопределенному кругу лиц (передача персональных данных) или на ознакомление с персональными данными неограниченного круга лиц, в том числе обнародование персональных данных в средствах массовой информации, размещение в информационно-телекоммуникационных сетях или предоставление доступа к персональным данным каким-либо иным способом.</div>
+					<div class="policy__text">2.13. Трансграничная передача персональных данных — передача персональных данных на территорию иностранного государства органу власти иностранного государства, иностранному физическому или иностранному юридическому лицу.</div>
+					<div class="policy__text">2.14. Уничтожение персональных данных — любые действия, в результате которых персональные данные уничтожаются безвозвратно с невозможностью дальнейшего восстановления содержания персональных данных в информационной системе персональных данных и/или уничтожаются материальные носители персональных данных.</div>
+					<div class="policy__header">3. Основные права и обязанности Оператора</div>
+					<div class="policy__text">3.1. Оператор имеет право:<br>
+						<br><br>— получать от субъекта персональных данных достоверные информацию и/или документы, содержащие персональные данные;
+						<br><br>— в случае отзыва субъектом персональных данных согласия на обработку персональных данных, а также, направления обращения с требованием о прекращении обработки персональных данных, Оператор вправе продолжить обработку персональных данных без согласия субъекта персональных данных при наличии оснований, указанных в Законе о персональных данных;
+						<br><br>— самостоятельно определять состав и перечень мер, необходимых и достаточных для обеспечения выполнения обязанностей, предусмотренных Законом о персональных данных и принятыми в соответствии с ним нормативными правовыми актами, если иное не предусмотрено Законом о персональных данных или другими федеральными законами.
+					</div>
+					<div class="policy__text">3.2. Оператор обязан:<br>
+						<br><br>— предоставлять субъекту персональных данных по его просьбе информацию, касающуюся обработки его персональных данных;
+						<br><br>— организовывать обработку персональных данных в порядке, установленном действующим законодательством РФ;
+						<br><br>— отвечать на обращения и запросы субъектов персональных данных и их законных представителей в соответствии с требованиями Закона о персональных данных;
+						<br><br>— сообщать в уполномоченный орган по защите прав субъектов персональных данных по запросу этого органа необходимую информацию в течение 10 дней с даты получения такого запроса;
+						<br><br>— публиковать или иным образом обеспечивать неограниченный доступ к настоящей Политике в отношении обработки персональных данных;
+						<br><br>— принимать правовые, организационные и технические меры для защиты персональных данных от неправомерного или случайного доступа к ним, уничтожения, изменения, блокирования, копирования, предоставления, распространения персональных данных, а также от иных неправомерных действий в отношении персональных данных;
+						<br><br>— прекратить передачу (распространение, предоставление, доступ) персональных данных, прекратить обработку и уничтожить персональные данные в порядке и случаях, предусмотренных Законом о персональных данных;
+						<br><br>— исполнять иные обязанности, предусмотренные Законом о персональных данных.
+					</div>
+					<div class="policy__header">4. Основные права и обязанности субъектов персональных данных</div>
+					<div class="policy__text">4.1. Субъекты персональных данных имеют право:<br>
+						<br><br>— получать информацию, касающуюся обработки его персональных данных, за исключением случаев, предусмотренных федеральными законами. Сведения предоставляются субъекту персональных данных Оператором в доступной форме, и в них не должны содержаться персональные данные, относящиеся к другим субъектам персональных данных, за исключением случаев, когда имеются законные основания для раскрытия таких персональных данных. Перечень информации и порядок ее получения установлен Законом о персональных данных;
+						<br><br>— требовать от оператора уточнения его персональных данных, их блокирования или уничтожения в случае, если персональные данные являются неполными, устаревшими, неточными, незаконно полученными или не являются необходимыми для заявленной цели обработки, а также принимать предусмотренные законом меры по защите своих прав;
+						<br><br>— выдвигать условие предварительного согласия при обработке персональных данных в целях продвижения на рынке товаров, работ и услуг;
+						<br><br>— на отзыв согласия на обработку персональных данных, а также, на направление требования о прекращении обработки персональных данных;
+						<br><br>— обжаловать в уполномоченный орган по защите прав субъектов персональных данных или в судебном порядке неправомерные действия или бездействие Оператора при обработке его персональных данных;
+						<br><br>— на осуществление иных прав, предусмотренных законодательством РФ.
+					</div>
+					<div class="policy__text">4.2. Субъекты персональных данных обязаны:
+						<br><br>— предоставлять Оператору достоверные данные о себе;
+						<br><br>— сообщать Оператору об уточнении (обновлении, изменении) своих персональных данных.
+					</div>
+					<div class="policy__text">4.3. Лица, передавшие Оператору недостоверные сведения о себе, либо сведения о другом субъекте персональных данных без согласия последнего, несут ответственность в соответствии с законодательством РФ.</div>
+					<div class="policy__header">5. Принципы обработки персональных данных</div>
+					<div class="policy__text">5.1. Обработка персональных данных осуществляется на законной и справедливой основе.</div>
+					<div class="policy__text">5.2. Обработка персональных данных ограничивается достижением конкретных, заранее определенных и законных целей. Не допускается обработка персональных данных, несовместимая с целями сбора персональных данных.</div>
+					<div class="policy__text">5.3. Не допускается объединение баз данных, содержащих персональные данные, обработка которых осуществляется в целях, несовместимых между собой.</div>
+					<div class="policy__text">5.4. Обработке подлежат только персональные данные, которые отвечают целям их обработки.</div>
+					<div class="policy__text">5.5. Содержание и объем обрабатываемых персональных данных соответствуют заявленным целям обработки. Не допускается избыточность обрабатываемых персональных данных по отношению к заявленным целям их обработки.</div>
+					<div class="policy__text">5.6. При обработке персональных данных обеспечивается точность персональных данных, их достаточность, а в необходимых случаях и актуальность по отношению к целям обработки персональных данных. Оператор принимает необходимые меры и/или обеспечивает их принятие по удалению или уточнению неполных или неточных данных.</div>
+					<div class="policy__text">5.7. Хранение персональных данных осуществляется в форме, позволяющей определить субъекта персональных данных, не дольше, чем этого требуют цели обработки персональных данных, если срок хранения персональных данных не установлен федеральным законом, договором, стороной которого, выгодоприобретателем или поручителем по которому является субъект персональных данных. Обрабатываемые персональные данные уничтожаются либо обезличиваются по достижении целей обработки или в случае утраты необходимости в достижении этих целей, если иное не предусмотрено федеральным законом.</div>
+					<div class="policy__header">6. Условия обработки персональных данных</div>
+					<div class="policy__text">6.1. Обработка персональных данных осуществляется с согласия субъекта персональных данных на обработку его персональных данных.</div>
+					<div class="policy__text">6.2. Обработка персональных данных необходима для достижения целей, предусмотренных международным договором Российской Федерации или законом, для осуществления возложенных законодательством Российской Федерации на оператора функций, полномочий и обязанностей.</div>
+					<div class="policy__text">6.3. Обработка персональных данных необходима для осуществления правосудия, исполнения судебного акта, акта другого органа или должностного лица, подлежащих исполнению в соответствии с законодательством Российской Федерации об исполнительном производстве.</div>
+					<div class="policy__text">6.4. Обработка персональных данных необходима для исполнения договора, стороной которого либо выгодоприобретателем или поручителем по которому является субъект персональных данных, а также для заключения договора по инициативе субъекта персональных данных или договора, по которому субъект персональных данных будет являться выгодоприобретателем или поручителем.</div>
+					<div class="policy__text">6.5. Обработка персональных данных необходима для осуществления прав и законных интересов оператора или третьих лиц либо для достижения общественно значимых целей при условии, что при этом не нарушаются права и свободы субъекта персональных данных.</div>
+					<div class="policy__text">6.6. Осуществляется обработка персональных данных, доступ неограниченного круга лиц к которым предоставлен субъектом персональных данных либо по его просьбе (далее — общедоступные персональные данные).</div>
+					<div class="policy__text">6.7. Осуществляется обработка персональных данных, подлежащих опубликованию или обязательному раскрытию в соответствии с федеральным законом.</div>
+					<div class="policy__header">7. Порядок сбора, хранения, передачи и других видов обработки персональных данных</div>
+					<div class="policy__text">Безопасность персональных данных, которые обрабатываются Оператором, обеспечивается путем реализации правовых, организационных и технических мер, необходимых для выполнения в полном объеме требований действующего законодательства в области защиты персональных данных.</div>
+					<div class="policy__text">7.1. Оператор обеспечивает сохранность персональных данных и принимает все возможные меры, исключающие доступ к персональным данным неуполномоченных лиц.</div>
+					<div class="policy__text">7.2. Персональные данные Пользователя никогда, ни при каких условиях не будут переданы третьим лицам, за исключением случаев, связанных с исполнением действующего законодательства либо в случае, если субъектом персональных данных дано согласие Оператору на передачу данных третьему лицу для исполнения обязательств по гражданско-правовому договору.</div>
+					<div class="policy__text">7.3. В случае выявления неточностей в персональных данных, Пользователь может актуализировать их самостоятельно, путем направления Оператору уведомление на адрес электронной почты Оператора demontazhrostov@mail.ru с пометкой "Актуализация персональных данных".</div>
+					<div class="policy__text">7.4. Срок обработки персональных данных определяется достижением целей, для которых были собраны персональные данные, если иной срок не предусмотрен договором или действующим законодательством. Пользователь может в любой момент отозвать свое согласие на обработку персональных данных, направив Оператору уведомление посредством электронной почты на электронный адрес Оператора m4ximilian@yandex.ru с пометкой "Отзыв согласия на обработку персональных данных".</div>
+					<div class="policy__text">7.5. Вся информация, которая собирается сторонними сервисами, в том числе платежными системами, средствами связи и другими поставщиками услуг, хранится и обрабатывается указанными лицами (Операторами) в соответствии с их Пользовательским соглашением и Политикой конфиденциальности. Субъект персональных данных и/или с указанными документами. Оператор не несет ответственность за действия третьих лиц, в том числе указанных в настоящем пункте поставщиков услуг.</div>
+					<div class="policy__text">7.6. Установленные субъектом персональных данных запреты на передачу (кроме предоставления доступа), а также на обработку или условия обработки (кроме получения доступа) персональных данных, разрешенных для распространения, не действуют в случаях обработки персональных данных в государственных, общественных и иных публичных интересах, определенных законодательством РФ.</div>
+					<div class="policy__text">7.7. Оператор при обработке персональных данных обеспечивает конфиденциальность персональных данных.</div>
+					<div class="policy__text">7.8. При осуществлении доставки товаров Оператор может собирать данные о конечной точке доставки и получателе, чтобы точно рассчитать маршрут. Грузоперевозка осуществляется с помощью транспортных компаний и курьерских служб доставки. Цены по тарифам перевозчика в зависимости от объёма и массы груза, а так же удалённости от точки отправки. Для негабаритных и крупногабаритных грузов действуют особые условия перевозки, стоимость можно рассчитать через сайт ННВ-Негабарит.</div>
+					<div class="policy__text">7.9. Оператор осуществляет хранение персональных данных в форме, позволяющей определить субъекта персональных данных, не дольше, чем этого требуют цели обработки персональных данных, если срок хранения персональных данных не установлен федеральным законом, договором, стороной которого, выгодоприобретателем или поручителем по которому является субъект персональных данных.</div>
+					<div class="policy__text">7.10. Условием прекращения обработки персональных данных может являться достижение целей обработки персональных данных, истечение срока действия согласия субъекта персональных данных, отзыв согласия субъектом персональных данных или требование о прекращении обработки персональных данных, а также выявление неправомерной обработки персональных данных.</div>
+					<div class="policy__header">8. Перечень действий, производимых Оператором с полученными персональными данными</div>
+					<div class="policy__text">8.1. Оператор осуществляет сбор, запись, систематизацию, накопление, хранение, уточнение (обновление, изменение), извлечение, использование, передачу (распространение, предоставление, доступ), обезличивание, блокирование, удаление и уничтожение персональных данных.</div>
+					<div class="policy__text">8.2. Оператор осуществляет автоматизированную обработку персональных данных с получением и/или передачей полученной информации по информационно-телекоммуникационным сетям или без таковой.</div>
+					<div class="policy__header">9. Трансграничная передача персональных данных</div>
+					<div class="policy__text">9.1. Оператор до начала осуществления деятельности по трансграничной передаче персональных данных обязан уведомить уполномоченный орган по защите прав субъектов персональных данных о своем намерении осуществлять трансграничную передачу персональных данных (такое уведомление направляется отдельно от уведомления о намерении осуществлять обработку персональных данных).</div>
+					<div class="policy__text">9.2. Оператор до подачи вышеуказанного уведомления, обязан получить от органов власти иностранного государства, иностранных физических лиц, иностранных юридических лиц, которым планируется трансграничная передача персональных данных, соответствующие сведения.</div>
+					<div class="policy__header">10. Конфиденциальность персональных данных</div>
+					<div class="policy__text">Оператор и иные лица, получившие доступ к персональным данным, обязаны не раскрывать третьим лицам и не распространять персональные данные без согласия субъекта персональных данных, если иное не предусмотрено федеральным законом.</div>
+					<div class="policy__header">11. Заключительные положения</div>
+					<div class="policy__text">11.1. Пользователь может получить любые разъяснения по интересующим вопросам, касающимся обработки его персональных данных, обратившись к Оператору с помощью электронной почты demontazhrostov@mail.ru.</div>
+					<div class="policy__text">11.2. В данном документе будут отражены любые изменения политики обработки персональных данных Оператором. Политика действует бессрочно до замены ее новой версией.</div>
+					<div class="policy__text">11.3. Актуальная версия Политики в свободном доступе расположена в сети Интернет по адресу http://demontazh-rostov.ru.</div>
+				</div>
+			</div>
+		</div>
+		<footer id="foot" class="footer">
+			<div class="footer__container animate__bounce wow animate__animated">
+				<div class="footer__top">
+					<a href="" class="footer__logo">
+						<img src="img/logo.svg" alt="logo">
+					</a>
+					<div class="footer__contacts contacts-footer">
+						<h3 class="contacts-footer__title">Контакты</h3>
+						<a href="tel:89990009999" class="contacts-footer__tel"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M6.62 10.79C8.06 13.62 10.38 15.93 13.21 17.38L15.41 15.18C15.68 14.91 16.08 14.82 16.43 14.94C17.55 15.31 18.76 15.51 20 15.51C20.55 15.51 21 15.96 21 16.51V20C21 20.55 20.55 21 20 21C10.61 21 3 13.39 3 4C3 3.45 3.45 3 4 3H7.5C8.05 3 8.5 3.45 8.5 4C8.5 5.25 8.7 6.45 9.07 7.57C9.18 7.92 9.1 8.31 8.82 8.59L6.62 10.79Z" fill="white" />
+							</svg><span>+ 7 999 000 99 99</span></a>
+						<div class="contacts-footer__location">
+							<div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M12 14C14.206 14 16 12.206 16 10C16 7.794 14.206 6 12 6C9.794 6 8 7.794 8 10C8 12.206 9.794 14 12 14ZM12 8C13.103 8 14 8.897 14 10C14 11.103 13.103 12 12 12C10.897 12 10 11.103 10 10C10 8.897 10.897 8 12 8Z" fill="white" />
+									<path d="M11.4201 21.814C11.5893 21.9349 11.7921 21.9998 12.0001 21.9998C12.2081 21.9998 12.4108 21.9349 12.5801 21.814C12.8841 21.599 20.0291 16.44 20.0001 10C20.0001 5.589 16.4111 2 12.0001 2C7.58909 2 4.00009 5.589 4.00009 9.995C3.97109 16.44 11.1161 21.599 11.4201 21.814ZM12.0001 4C15.3091 4 18.0001 6.691 18.0001 10.005C18.0211 14.443 13.6121 18.428 12.0001 19.735C10.3891 18.427 5.97909 14.441 6.00009 10C6.00009 6.691 8.69109 4 12.0001 4Z" fill="white" />
+								</svg></div>
+							<span>Зубковой 8а</span>
+						</div>
+					</div>
+				</div>
+				<a href="#" data-popup="#popupPolicy" class="footer__policy">Политика конфиденциальности</a>
+			</div>
+		</footer>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js?_v=20240301202135"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js?_v=20240301202135"></script>
+
+
+	<script src="js/wow.min.js?_v=20240301202135"></script>
+	<script src="js/app.min.js?_v=20240301202135"></script>
+	<script>
+		new WOW().init();
+	</script>
+</body>
+
+</html>
